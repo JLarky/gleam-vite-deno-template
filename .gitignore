@@ -24,3 +24,9 @@ manifest.toml
 *.njsproj
 *.sln
 *.sw?
+
+# gleam
+*.beam
+*.ez
+/build
+erl_crash.dump
