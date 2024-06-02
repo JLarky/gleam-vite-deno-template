@@ -1,6 +1,14 @@
 name = "my_vite_template"
-version = "1.0.0"
+version = "0.1.0"
+target = "javascript"
 
+[javascript]
+typescript_declarations = true
+runtime = "deno"
+
+[javascript.deno]
+allow_read = ["gleam.toml", "test", "tmp"]
+allow_write = ["tmp"]
 # Fill out these fields if you intend to generate HTML documentation or publish
 # your project to the Hex package manager.
 #
