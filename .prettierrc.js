@@ -1,6 +1,4 @@
-// prettier.config.js, .prettierrc.js, prettier.config.mjs, or .prettierrc.mjs
-
-import toml from "npm:prettier-plugin-toml";
+import toml from "prettier-plugin-toml";
 
 /**
  * @see https://prettier.io/docs/en/configuration.html
